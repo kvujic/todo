@@ -1,0 +1,128 @@
+.todo__alert--success {
+    padding: 10px 30px;
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border-color: #badbcc;
+}
+
+.todo__alert--danger {
+    padding: 10px 30px;
+    background-color: #f8d7da;
+    color: #842029;
+    border-color: #f5c2c7;
+}
+
+.todo__alert--danger ul {
+    margin: 0;
+}
+
+.todo__content {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 60px 15px;
+}
+
+.create-form {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.create-form__item {
+    width: 70%;
+}
+
+.create-form__item-input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.create-form__button {
+    width: 20%;
+}
+
+.create-form__button-submit {
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.todo-table {
+    width: 70%;
+    text-align: left;
+    margin: 30px auto;
+}
+
+.todo-table__inner {
+    width: 100%;
+}
+
+.todo-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-table__header {
+    font-weight: bold;
+    text-align: left;
+    width: 20px;
+    padding: 12px;
+}
+
+.todo-table__item:first-of-type {
+    width: 90%;
+    padding: 12px;
+}
+
+.update-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.update-form__item {
+    width: 80%;
+    line-height: 50%;
+}
+
+.update-form__item-input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.update-form__button {
+    
+}
+
+
+.update-form__button-submit {
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-form__button {
+
+}
+
+.delete-form__button-submit {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
