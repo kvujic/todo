@@ -18,6 +18,7 @@ class CreateCategoriesTable extends Migration
             $table->string('name', 10)->unique();
             $table->timestamp('created_at')->useCurrent()->nullable();
             $table->timestamp('updated_at')->useCurrent()->nullable();
+            $table->softDeletes();
         });
     }
 

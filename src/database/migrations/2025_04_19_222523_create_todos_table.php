@@ -19,6 +19,7 @@ class CreateTodosTable extends Migration
             $table->string('content', 20);
             $table->timestamp('created_at')->useCurrent()->nullable();
             $table->timestamp('updated_at')->useCurrent()->nullable();
+            $table->softDeletes();
         });
     }
 
